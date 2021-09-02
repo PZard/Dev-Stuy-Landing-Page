@@ -69,16 +69,20 @@ header li {
 }
 
 header a {
-    color: #B967FF;
+    color: var(--white);
     text-transform: uppercase;
     text-decoration: none;
     font-weight: 500;
 }
 
+header a:hover > .line-heading {
+    background-color: var(--secondary-color);
+}
+
 .line-header {
     height: 7px;
     width: 100%;
-    background-color: var(--secondary-color);
+    background-image: linear-gradient(to right, var(--primary-color), var(--secondary-color));
 }
 
 .introduction {
@@ -95,6 +99,7 @@ header a {
     height: 3px;
     background-color: var(--primary-color);
     margin: 0 auto;
+    transition: 0.5s;
 }
 
 .introduction .line-heading {
@@ -324,6 +329,11 @@ perfis de cada um dos integrantes
     letter-spacing: 2px;
 
     cursor: pointer;
+    transition: 0.5s;
+}
+
+.contact input[type="submit"]:hover {
+    background-color: #7002d1;
 }
 
 footer {
