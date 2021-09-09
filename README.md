@@ -25,7 +25,7 @@ Ao longo deste projeto, percebemos que nossas habilidades se completam de maneir
 </p>
 
 <p>
-Além disso, percebemos a facilidade de trabalharmos uns com os outros. Sempre tivemos um ambiente tranquilo, descontraído e receptivo. Também somos um grupo <strong>Descontraído</strong>.
+Além disso, percebemos a facilidade de trabalharmos uns com os outros. Sempre tivemos um ambiente tranquilo, descontraído e receptivo. Também somos um grupo <strong>descontraído</strong>.
 </p>
 
 ## Processo Criativo
