@@ -14,7 +14,7 @@ function preLoad() {
     var s = 1;
     for(var i = 0; i < total; i++){
         imgs[i] = new Image();
-        imgs[i].src = path+nome+s+tipo;
+        imgs[i].src = path + nome + s + tipo;
         s++;
     }
 }

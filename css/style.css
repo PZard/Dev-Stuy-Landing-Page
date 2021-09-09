@@ -353,7 +353,7 @@ main{
 }
 
 #line-masiero {
-    width: 225px;
+    width: 150px;
 }
 
 #line-pedro {
@@ -361,7 +361,7 @@ main{
 }
 
 .social-media {
-    margin-top: 55px;
+    margin-top: 80px;
     display: flex;
     justify-content: space-around;
 }
@@ -482,22 +482,20 @@ footer div {
  
 .popup-content button {
     text-transform: uppercase;
-    font-weight: bold;
     font-size: 18px;
     margin-top: 20px;
     width: 225px;
     height: 40px;
     background-color: var(--btn-color);
-    color: white;
+    color: var(--white);
     border: none;
     border-radius: 5px;
     padding: 5px 10px;
-    letter-spacing: 1px;
-    transition: 1s;
+    letter-spacing: 2px;
+    transition: 0.5s;
     cursor: pointer;
 }
  
 .popup-content button:hover {
     background: #7002d1;
 }
-/*finalização do popup*/
