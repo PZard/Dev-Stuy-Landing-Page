@@ -89,7 +89,7 @@ header {
 }
 
 header nav {
-    padding-bottom: 7px;
+    padding: 7px 0;
 }
 
 header h1 {
