@@ -93,6 +93,7 @@ header nav {
 }
 
 header h1 {
+    line-height: 75px;
     font-family: 'Sticky Pops';
     color: var(--white);
 }
@@ -389,7 +390,7 @@ main{
     background-color: var(--primary-color);
     text-align: center;
     padding: 85px 0;
-    margin-bottom: 100px;
+    margin: 100px 0;
 }
 
 .contact h2 {
