@@ -168,7 +168,7 @@ main{
 }
 
 .qualities {
-    margin: 140px 0;
+    margin: 51px 0;
     text-align: center;
 }
 
@@ -219,12 +219,6 @@ main{
     transform: scale(1.0);
 }
 
-.pic:hover{
-    transition: 1s !important;
-    transform: scale(1.15) !important;
-    filter: saturate(1.1)!important;
-}
-
 .quality img {
     width: 90px;
     height: 90px;
@@ -232,6 +226,10 @@ main{
 
 .quality h3 {
     margin-top: 20px;
+}
+
+#membros {
+    height: 89px;
 }
 
 .members {
@@ -269,10 +267,6 @@ main{
     background-color: var(--black);
 }
 
-#mariaso .circle {
-    background-color: var(--black);
-}
-
 #mari .circle {
     background-color: var(--black);
 }
@@ -281,13 +275,23 @@ main{
     background-color: var(--black);
 }
 
+.member:hover .pic {
+    transition: 1s !important;
+    transform: scale(1.15) !important;
+    filter: saturate(1.1)!important;
+}
+
 .member h3 {
     margin-top: 24px;
     color: var(--white);
 }
 
+.scroll-to-member {
+    height: 90px;
+}
+
 .personal {
-    padding: 150px 0;
+    padding: 60px 0;
 }
 
 .reversed {
@@ -348,10 +352,6 @@ main{
     width: 100px;
 }
 
-#line-aso {
-    width: 150px;
-}
-
 #line-masiero {
     width: 150px;
 }
@@ -386,11 +386,15 @@ main{
     height: 25px;
 }
 
+#contato {
+    height: 10px;
+}
+
 .contact {
     background-color: var(--primary-color);
     text-align: center;
     padding: 85px 0;
-    margin: 100px 0;
+    margin: 90px 0 100px 0;
 }
 
 .contact h2 {
@@ -431,8 +435,12 @@ main{
 }
 
 footer {
+    display: flex;
+    height: 300px;
     background-color: var(--black);
     text-align: center;
+    align-items: center;
+    justify-content: center;
     padding: 40px;
 }
 
@@ -444,15 +452,15 @@ footer h1 {
  
 footer p {
     margin-top: 15px;
-    color:#FFFFFF;
+    color: var(--white);
     font-size: 13px;
 }
  
-footer div {
-    margin: 0 auto;
-    text-align: center;
-    width: 200px;
-    border-bottom: 3px solid #7002d1;
+.line-footer {
+    margin: 5px auto;
+    width: 150px;
+    height: 2px;
+    background-color: var(--primary-color);
 }
 
 .popup-background {
