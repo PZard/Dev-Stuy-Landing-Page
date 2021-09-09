@@ -13,31 +13,31 @@
 <body>
     <header>
         <nav class="center two-columns">
-            <img src="images/pseudo-logo.png" alt="Logo da Dev Stuy do programa #TeuFuturo 2021">
+            <h1>Dev Stuy</h1>
             <ul>
                 <li>
-                    <a href="">
+                    <a href="#">
                         Sobre
                         <div class="line-heading"></div>
                     </a>  
                 </li>
                 <li>
-                    <a href="">
+                    <a href="#membros">
                         Membros
                         <div class="line-heading"></div>
                     </a>
                 </li>
                 <li>
-                    <a href="">
+                    <a href="#contato">
                         Contato
                         <div class="line-heading"></div>
                     </a>
                 </li>
             </ul>
         </nav>
+        <div class="line-header">
+        </div><!--line-->
     </header>
-    <div class="line-header">
-    </div><!--line-->
 
     <main>
         <div class="introduction">
@@ -89,7 +89,7 @@
             </div><!-- center -->
         </div><!-- description -->
 
-        <div class="members">
+        <div class="members" id="membros">
             <div class="center">
                 <h2>
                     Conheça os integrantes
@@ -100,26 +100,31 @@
                 <div class="members-photos">
                     <div class="member" id="joaopedro">
                         <div class="circle">
+                            <img src="images/bruh.jpg" class="pic">
                         </div>
                         <h3>João Pedro</h3>
                     </div><!--member-->
                     <div class="member" id="lucas">
                         <div class="circle">
+                            <img src="images/bruh.jpg" class="pic">
                         </div>
                         <h3>Lucas</h3>
                     </div><!--member-->
                     <div class="member" id="mariaso">
                         <div class="circle">
+                            <img src="images/bruh.jpg" class="pic">
                         </div>
                         <h3>Mari Aso</h3>
                     </div><!--member-->
                     <div class="member" id="mari">
                         <div class="circle">
+                            <img src="images/bruh.jpg" class="pic">
                         </div>
                         <h3>Mari Masiero</h3>
                     </div><!--member-->
                     <div class="member" id="pedro">
                         <div class="circle">
+                            <img src="images/bruh.jpg" class="pic">
                         </div>
                         <h3>Pedro</h3>
                     </div><!--member-->
@@ -131,7 +136,9 @@
             <div class="center">
                 <div class="two-columns">
                     <div class="member-image">
-                        <div class="circle"></div>
+                        <div class="circle">
+                            <img src="images/bruh.jpg">
+                        </div>
                     </div>
                     <div class="member-information">
                         <h2>João Pedro</h2>
@@ -263,7 +270,11 @@
             <div class="center">
                 <div class="two-columns">
                     <div class="member-image">
-                        <div class="circle"></div>
+                        <div class="circle">
+                            <img id="circulo" class="imgSlide">
+                        </div>
+                        <button class="btnSlider" onClick=slide(-1)></button>
+                        <button class="btnSlider" onClick=slide(1)></button>
                     </div>
                     <div class="member-information">
                         <h2>Pedro</h2>
@@ -292,7 +303,7 @@
             </div><!-- center -->
         </div><!-- personal -->
 
-        <div class="contact">
+        <div class="contact" id="contato">
             <div class="center">
                 <form>
                     <h2>Contato</h2>
@@ -306,8 +317,7 @@
 
     <footer>
     </footer>
-    <script type="text/javascript"
-    src="https://code.jquery.com/jquery-3.6.0.min.js"></script>
+
     <script src="js/script.js"></script>
 </body>
 </html>
