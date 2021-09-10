@@ -31,7 +31,7 @@ Além disso, percebemos a facilidade de trabalharmos uns com os outros. Sempre t
 ## Processo Criativo
 
 <p>
-Ao pensar no estilo da Landing Page, buscamos trazer múltiplas referências que fizessem jus às nossas personalidades. Por isso, tivemos o <strong>Vaporwave</strong> e o <strong>Lo-Fi</strong> como as duas principais referências visuais para a página. Baseado nestes estilos, utilizamos as cores #B967FF, #FF71CE e #FFFB96 para transmitir tranquilidade e criatividade.
+Ao pensar no estilo da Landing Page, buscamos trazer múltiplas referências que fizessem jus às nossas personalidades. Por isso, tivemos o <strong>Vaporwave</strong> e o <strong>Lo-Fi</strong> como as duas principais referências visuais para a página. Baseado nestes estilos, utilizamos as cores <span style="display: inline-block; background: #B967FF;">#B967FF</span>, #FF71CE e #FFFB96 para transmitir tranquilidade e criatividade.
 </p>
   
 <p>
