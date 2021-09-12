@@ -1,4 +1,4 @@
-# <img src="images\logo.png" style="float: left; width: 121px"></h1>
+# <img src="\public\assets\logo.png" style="float: left; width: 121px"></h1>
 
 <p>
 Projeto desenvolvido e idealizado pelo Squad 17 da turma de sexta-feira do projeto #TeuFuturo.
