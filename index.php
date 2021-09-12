@@ -5,7 +5,8 @@
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Dev Stuy</title>
-    <link rel="stylesheet" href="css/style.css">
+    <link rel="stylesheet" href="public/css/style.css">
+    <link rel="stylesheet" href="public/css/responsive.css">
     <link rel="preconnect" href="https://fonts.googleapis.com">
     <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
     <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@400;500;700&display=swap" rel="stylesheet">
@@ -68,19 +69,19 @@
                     <div class="qualities-items">
                         <div class="quality">
                             <div class="circle">
-                                <img src="images/ideia-criativa.png" alt="" class="qualities-icon">
+                                <img src="public\assets\icons\ideia-criativa.png" alt="" class="qualities-icon">
                             </div>
                             <h3>Criativo</h3>
                         </div>
                         <div class="quality">
                             <div class="circle">
-                                <img src="images/calma.png" alt="" class="qualities-icon">
+                                <img src="public\assets\icons\calma.png" alt="" class="qualities-icon">
                             </div>
                             <h3>Descontraído</h3>
                         </div>
                         <div class="quality">
                             <div class="circle">
-                                <img src="images/equipe-de-trabalho.png" alt="" class="qualities-icon">
+                                <img src="public\assets\icons\equipe-de-trabalho.png" alt="" class="qualities-icon">
                             </div>
                             <h3>Multidisciplinar</h3>
                         </div>
@@ -102,7 +103,7 @@
                     <a href="#scroll-jp">
                         <div class="member" id="joaopedro">
                             <div class="circle">
-                                <img src="images/alcalde.jpeg" class="pic">
+                                <img src="public\assets\members\alcalde.jpeg" class="pic">
                             </div>
                             <h3>João Pedro</h3>
                         </div><!--member-->
@@ -110,7 +111,7 @@
                     <a href="#scroll-lucas">
                         <div class="member" id="lucas">
                             <div class="circle">
-                                <img src="images/lucas.jpeg" class="pic">
+                                <img src="public\assets\members\lucas.jpeg" class="pic">
                             </div>
                             <h3>Lucas</h3>
                         </div><!--member-->
@@ -118,7 +119,7 @@
                     <a href="#scroll-mari">
                         <div class="member" id="mari">
                             <div class="circle">
-                                <img src="images/mariana.jpeg" class="pic">
+                                <img src="public\assets\members\mariana.jpeg" class="pic">
                             </div>
                             <h3>Mariana</h3>
                         </div><!--member-->
@@ -126,7 +127,7 @@
                     <a href="#scroll-pedro">
                         <div class="member" id="pedro">
                             <div class="circle">
-                                <img src="images/pedro.jpeg" class="pic">
+                                <img src="public\assets\members\pedro.jpeg" class="pic">
                             </div>
                             <h3>Pedro</h3>
                         </div><!--member-->
@@ -142,7 +143,7 @@
                 <div class="two-columns">
                     <div class="member-image">
                         <div class="circle">
-                            <img src="images/alcalde.jpeg">
+                            <img src="public\assets\members\alcalde.jpeg">
                         </div>
                     </div>
                     <div class="member-information">
@@ -153,17 +154,17 @@
                         <div class="social-media">
                             <a href="https://www.linkedin.com/in/jo%C3%A3o-pedro-alcalde-guimar%C3%A3es-617523208/" target="_blank">
                                 <div class="social-media-icon">
-                                    <img src="images/linkedin.svg" alt="">
+                                    <img src="public\assets\icons\linkedin.svg" alt="">
                                 </div>
                             </a>
                             <a href="https://github.com/alcaldeguima" target="_blank">
                                 <div class="social-media-icon">
-                                    <img src="images/github.svg" alt="">
+                                    <img src="public\assets\icons\github.svg" alt="">
                                 </div>
                             </a>
                             <a href="https://www.instagram.com/joao_pedroguima/" target="_blank">
                                 <div class="social-media-icon">
-                                    <img src="images/instagram.svg" alt="">
+                                    <img src="public\assets\icons\instagram.svg" alt="">
                                 </div>
                             </a>
                         </div><!-- social media -->
@@ -179,7 +180,7 @@
                 <div class="two-columns reversed">
                     <div class="member-image">
                         <div class="circle">
-                            <img src="images/lucas.jpeg">
+                            <img src="public\assets\members\lucas.jpeg">
                         </div>
                     </div>
                     <div class="member-information">
@@ -190,17 +191,17 @@
                         <div class="social-media">
                             <a href="https://www.linkedin.com/in/lucas-santos-de-oliveira-projetos" target="_blank">
                                 <div class="social-media-icon">
-                                    <img src="images/linkedin.svg" alt="">
+                                    <img src="public\assets\icons\linkedin.svg" alt="">
                                 </div>
                             </a>
                             <a href="https://github.com/lucas-projetos" target="_blank">
                                 <div class="social-media-icon">
-                                    <img src="images/github.svg" alt="">
+                                    <img src="public\assets\icons\github.svg" alt="">
                                 </div>
                             </a>
                             <a href="https://instagram.com/lucasoliveira4303?utm_medium=copy_link" target="_blank">
                                 <div class="social-media-icon">
-                                    <img src="images/instagram.svg" alt="">
+                                    <img src="public\assets\icons\instagram.svg" alt="">
                                 </div>
                             </a>
                         </div><!-- social media -->
@@ -216,7 +217,7 @@
                 <div class="two-columns">
                     <div class="member-image">
                         <div class="circle">
-                            <img src="images/mariana.jpeg">
+                            <img src="public\assets\members\mariana.jpeg">
                         </div>
                     </div>
                     <div class="member-information">
@@ -227,17 +228,17 @@
                         <div class="social-media">
                             <a href="https://www.linkedin.com/in/mariana-anita-masiero-b966a2210/" target="_blank">
                                 <div class="social-media-icon">
-                                    <img src="images/linkedin.svg" alt="">
+                                    <img src="public\assets\icons\linkedin.svg" alt="">
                                 </div>
                             </a>
                             <a href="https://github.com/mmari1" target="_blank">
                                 <div class="social-media-icon">
-                                    <img src="images/github.svg" alt="">
+                                    <img src="public\assets\icons\github.svg" alt="">
                                 </div>
                             </a>
                             <a href="https://www.instagram.com/mariana_masiero/?hl=pt-br" target="_blank">
                                 <div class="social-media-icon">
-                                    <img src="images/instagram.svg" alt="">
+                                    <img src="public\assets\icons\instagram.svg" alt="">
                                 </div>
                             </a>
                         </div><!-- social media -->
@@ -253,7 +254,7 @@
                 <div class="two-columns reversed">
                     <div class="member-image">
                         <div class="circle">
-                            <img src="images/pedro.jpeg">
+                            <img src="public\assets\members\pedro.jpeg">
                         </div>
                     </div>
                     <div class="member-information">
@@ -264,17 +265,17 @@
                         <div class="social-media">
                             <a href="https://www.linkedin.com/in/pzardin/" target="_blank">
                                 <div class="social-media-icon">
-                                    <img src="images/linkedin.svg" alt="">
+                                    <img src="public\assets\icons\linkedin.svg" alt="">
                                 </div>
                             </a>
                             <a href="https://github.com/PZard" target="_blank">
                                 <div class="social-media-icon">
-                                    <img src="images/github.svg" alt="">
+                                    <img src="public\assets\icons\github.svg" alt="">
                                 </div>
                             </a>
                             <a href="https://www.instagram.com/pzardin/?hl=pt-br" target="_blank">
                                 <div class="social-media-icon">
-                                    <img src="images/instagram.svg" alt="">
+                                    <img src="public\assets\icons\instagram.svg" alt="">
                                 </div>
                             </a>
                         </div><!-- social media -->
@@ -286,11 +287,11 @@
 
         <div class="contact">
             <div class="center">
-                <form>
+                <form method="post" class="form">
                     <h2>Contato</h2>
-                    <input type="text" name="name" id="name" placeholder="Nome Completo">
-                    <input type="email" name="email" id="email" placeholder="Email">
-                    <input type="submit" value="Enviar">
+                    <input type="text" name="name" id="name" placeholder="Nome Completo" required>
+                    <input type="text" name="email" id="email" placeholder="Email" required>
+                    <input type="submit" value="Enviar" name="button" id="button">
                 </form>
             </div>
         </div><!-- contact -->
@@ -308,11 +309,14 @@
         <div class="popup">
             <div class="popup-content">
                 <h2>E-mail enviado <br> com sucesso!</h2>
-                <button id="popup-button">ok</button>
+                <button id="popup-button">Ok</button>
             </div>           
         </div>
     </div>
-
-    <script src="js/form.js"></script>
+    
+    <script type="text/javascript" src="https://code.jquery.com/jquery-3.6.0.min.js"></script>
+    <script type="text/javascript" src="public/js/form.js"></script>
 </body>
 </html>
+
+
